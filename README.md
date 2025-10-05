@@ -1,7 +1,7 @@
 # Nettbureau case <small style="font-size: small">av Jonas Fjærestad</small>
 
 ## Oppsett
-Last ned prosjektet, koden skal kjøres via kommando linje så husk hvor den lagres. Koden er laget på php versjon 8.4.13 vet ikke om den kjører på eldre versjoner.
+Last ned eller klon prosjektet, koden skal kjøres via kommando linje så husk hvor den lagres. Koden er laget på php versjon 8.4.13 vet ikke om den kjører på eldre versjoner.
 
 ## Fil-strukturen
 **Øverste mappe** inneholder intigrasjonskoden, en logging kode, en log fil og en log fil for feilkoder.    
@@ -32,5 +32,6 @@ Etter at de har blitt brukt en gang må minst variablen 'name' endres i testfile
 **org_existing_test.php:** brukes sammen ``b``  
 **person_existing_test.php:** brukes sammen med ``c``  
 **pre_existing_data_test.php:** brukes sammen med ``d``
+
 
 
