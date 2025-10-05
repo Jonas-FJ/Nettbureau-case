@@ -1,6 +1,8 @@
 # Nettbureau case <small style="font-size: small">av Jonas Fjærestad</small>
 
 ## Oppsett
+>**Obs** koden fungerer bare på windows pga. problemer med fil stier i koden når den kjøres på linux.
+
 Last ned eller klon prosjektet, koden skal kjøres via kommando linje så husk hvor den lagres. Koden er laget på php versjon 8.4.13 vet ikke om den kjører på eldre versjoner.
 
 ## Fil-strukturen
@@ -32,6 +34,7 @@ Etter at de har blitt brukt en gang må minst variablen 'name' endres i testfile
 **org_existing_test.php:** brukes sammen ``b``  
 **person_existing_test.php:** brukes sammen med ``c``  
 **pre_existing_data_test.php:** brukes sammen med ``d``
+
 
 
 
