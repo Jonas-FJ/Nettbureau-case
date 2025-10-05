@@ -10,6 +10,7 @@ function updateLeadOrg($domain, $api_key, $lead_id, $org_id) {
         new GuzzleHttp\Client([
             'base_uri' => "https://$domain.pipedrive.com/api/v1/leads",
             'debug' => false,
+            'verify' => false,
         ]),
         $config
     );

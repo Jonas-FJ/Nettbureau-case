@@ -10,6 +10,7 @@ function duplicateLeadCheck($title, $domain, $api_key) {
         new GuzzleHttp\Client([
             'base_uri' => "https://$domain.pipedrive.com/api/v2/organizations",
             'debug' => false,
+            'verify' => false,
         ]),
         $config
     );

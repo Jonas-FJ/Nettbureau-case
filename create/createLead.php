@@ -12,6 +12,7 @@ function createLead($data, $domain, $api_key, $org_id, $person_id) {
         new GuzzleHttp\Client([
             'base_uri' => "https://$domain.pipedrive.com/api/v2/leads",
             'debug' => false,
+            'verify' => false,
         ]),
         $config
     );

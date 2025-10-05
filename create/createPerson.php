@@ -9,6 +9,7 @@ function createPerson($data, $domain, $api_key, $org_id) {
         new GuzzleHttp\Client([
             'base_uri' => "https://$domain.pipedrive.com/api/v2/persons",
             'debug' => false,
+            'verify' => false,
         ]),
         $config
     );
