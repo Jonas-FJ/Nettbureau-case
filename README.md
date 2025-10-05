@@ -4,7 +4,7 @@
 Last ned prosjektet, koden skal kjøres via kommando linje så husk hvor den lagres. Koden er laget på php versjon 8.4.13 vet ikke om den kjører på eldre versjoner.
 
 ## Fil-strukturen
-**Øverste mappe** inneholder intigrasjonskoden, en logging kode, en log fil og en log fil for feilkoder.  
+**Øverste mappe** inneholder intigrasjonskoden, en logging kode, en log fil og en log fil for feilkoder.    
 **Vendor** mappen er all api kode og modeller lastet ned fra den offisielle githuben til pipedrive.  
 **Create** mappen inneholder funksjonene som oppretter Leads, Organisasjoner og personer.  
 **DuplicateCheck** inneholder funksjoner som sjekker om Leads, Organisasjoner eller Personer finnes fra før av.  
@@ -12,7 +12,7 @@ Last ned prosjektet, koden skal kjøres via kommando linje så husk hvor den lag
 **testData** inneholder php filer med data til testing.
 
 ## Kjøring og testing av kode
-Koden kjøres fra kommando linjen  
+Koden kjøres fra kommando linjen. Det er pipedrive_lead_intefrasjon.php som skal kjøres. Den referer til de andre funsksjonen. Funksjonen er ikke satt opp til å kjøres på egenhånd.   
 ``php pipedrive_lead_intefrasjon.php "test variabel" "test fil"``
 
 ``"test variabel"``: Her legges det inn en av fire variabler:  
@@ -32,3 +32,4 @@ Etter at de har blitt brukt en gang må minst variablen 'name' endres i testfile
 **org_existing_test.php:** brukes sammen ``b``  
 **person_existing_test.php:** brukes sammen med ``c``  
 **pre_existing_data_test.php:** brukes sammen med ``d``
+
