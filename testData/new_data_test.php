@@ -1,7 +1,7 @@
 <?php
 return 
 [
-    "name" => "Gandalf Den hvite",
+    "name" => "Edgar Allan Poe",
     "phone" => "12345678",
     "email" => "ola.nordmannn@online.no",
     "housing_type" => "Enebolig",
