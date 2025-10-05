@@ -1,7 +1,7 @@
 <?php
 return 
 [
-    "name" => "Kermit the Frog",
+    "name" => "Henrik Wergeland",
     "phone" => "12345678",
     "email" => "ola.nordmannn@online.no",
     "housing_type" => "Leilighet",
