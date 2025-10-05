@@ -1,0 +1,86 @@
+03.10.2025 20:51:23 : Exception when calling OrganizationsApi->searchOrganization: [400] Client error: `GET https://api.pipedrive.com/api/v2/leads/search?term=4&fields=person_id%2C%20organization_id&exact_match=1&limit=100` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/fields person_id is not allowed. Must be one of: [\"custom_fields\",\"notes\",\"ti (truncated...)
+
+
+03.10.2025 20:51:24 : Exception when calling OrganizationsApi->searchOrganization: [400] Client error: `GET https://api.pipedrive.com/api/v2/leads/search?term=9&fields=person_id%2C%20organization_id&exact_match=1&limit=100` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/fields person_id is not allowed. Must be one of: [\"custom_fields\",\"notes\",\"ti (truncated...)
+
+
+03.10.2025 20:51:24 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+03.10.2025 21:24:40 : Exception when calling OrganizationsApi->searchOrganization: [400] Client error: `GET https://api.pipedrive.com/api/v2/leads/search?term=Ola%2BNordmann&fields=person_id%2C%20organization_id&exact_match=1&limit=100` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/fields person_id is not allowed. Must be one of: [\"custom_fields\",\"notes\",\"ti (truncated...)
+
+
+03.10.2025 21:24:40 : Exception when calling OrganizationsApi->searchOrganization: [400] Client error: `GET https://api.pipedrive.com/api/v2/leads/search?term=Ola%2BNordmann&fields=person_id%2C%20organization_id&exact_match=1&limit=100` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/fields person_id is not allowed. Must be one of: [\"custom_fields\",\"notes\",\"ti (truncated...)
+
+
+03.10.2025 21:24:41 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+03.10.2025 21:26:19 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+03.10.2025 21:28:20 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+03.10.2025 21:51:15 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+03.10.2025 21:52:41 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+04.10.2025 13:33:42 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+04.10.2025 15:37:10 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"One o (truncated...)
+
+04.10.2025 16:11:01 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"own (truncated...)
+
+04.10.2025 17:29:15 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"\"cus (truncated...)
+
+04.10.2025 21:23:40 : Exception when calling LeadsApi->updateLead: [400] Client error: `PATCH https://api.pipedrive.com/v1/leads/3af692b0-a157-11f0-860b-dd29933a7269` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't update lead, body is invalid.","error_info":"\"per (truncated...)
+
+04.10.2025 21:25:52 : Exception when calling LeadsApi->updateLead: [400] Client error: `PATCH https://api.pipedrive.com/v1/leads/3af692b0-a157-11f0-860b-dd29933a7269` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't update lead, body is invalid.","error_info":"\"per (truncated...)
+
+05.10.2025 15:17:00 : Exception when calling OrganizationsApi->searchOrganization: [400] Client error: `GET https://api.pipedrive.com/api/v2/organizations/search?term=&fields=name&exact_match=0&limit=2` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/term must NOT have fewer than 2 characters","error_info":"Please check developers. (truncated...)
+
+
+05.10.2025 15:17:00 : Exception when calling PersonsApi->searchPersons: [400] Client error: `GET https://api.pipedrive.com/api/v2/persons/search?term=&fields=name&exact_match=0&limit=1` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/term must NOT have fewer than 2 characters","error_info":"Please check developers. (truncated...)
+
+
+05.10.2025 15:17:01 : Exception when calling OrganizationsApi->addOrganization: [400] Client error: `POST https://api.pipedrive.com/api/v2/organizations` resulted in a `400 Bad Request` response:
+{"success":false,"error":"Validation failed: name: Missing required field","code":"ERR_SCHEMA_VALIDATION_FAILED"}
+
+
+05.10.2025 15:17:01 : Exception when calling PersonsApi->addPerson: [400] Client error: `POST https://api.pipedrive.com/api/v2/persons` resulted in a `400 Bad Request` response:
+{"success":false,"error":"Provide either \u0027name\u0027 or both \u0027first_name\u0027 and \u0027last_name\u0027.","co (truncated...)
+
+05.10.2025 15:17:02 : Exception when calling OrganizationsApi->searchOrganization: [400] Client error: `GET https://api.pipedrive.com/api/v2/leads/search?term=&fields=title&exact_match=0&limit=100` resulted in a `400 Bad Request` response:
+{"success":false,"error":"querystring/term must NOT have fewer than 2 characters","error_info":"Please check developers. (truncated...)
+
+
+05.10.2025 15:17:02 : Exception when calling LeadsApi->addLead: [400] Client error: `POST https://api.pipedrive.com/v1/leads` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"Couldn't create lead, body is invalid.","error_info":"One o (truncated...)
+
+05.10.2025 15:28:26 : Exception when calling PersonsApi->addPerson: [400] Client error: `POST https://api.pipedrive.com/api/v2/persons` resulted in a `400 Bad Request` response:
+{"success":false,"error":"Validation failed: custom_fields: Unknown key \u0027c0b071d74d13386af76f5681194fd8cd793e6020\u (truncated...)
+
+05.10.2025 15:28:28 : Exception when calling LeadsApi->updateLead: [400] Client error: `PATCH https://api.pipedrive.com/v1/leads/2cede810-a1ef-11f0-860b-dd29933a7269` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"provided dataset is not valid","error_info":"Custom field v (truncated...)
+
+05.10.2025 15:31:45 : Exception when calling PersonsApi->addPerson: [400] Client error: `POST https://api.pipedrive.com/api/v2/persons` resulted in a `400 Bad Request` response:
+{"success":false,"error":"Validation failed: custom_fields: Unknown key \u0027c0b071d74d13386af76f5681194fd8cd793e6020\u (truncated...)
+
+05.10.2025 15:31:46 : Exception when calling LeadsApi->updateLead: [400] Client error: `PATCH https://api.pipedrive.com/v1/leads/a32ff450-a1ef-11f0-8351-8b12ca1274ac` resulted in a `400 Bad Request` response:
+{"success":false,"data":null,"additional_data":null,"error":"provided dataset is not valid","error_info":"Custom field v (truncated...)
+
